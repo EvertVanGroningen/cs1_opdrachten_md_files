@@ -12,7 +12,7 @@ namespace IfOpdracht2
 
             enemy.hp -= 5;
             Console.WriteLine("you hit enemy for 5 damage");
-            if (false)//vervang false door een test of enemy.hp groter dan 0 is
+            if (enemy.hp > 0)//vervang false door een test of enemy.hp groter dan 0 is
             {
                 Console.WriteLine("enemy is still alive!");
             }
@@ -20,7 +20,7 @@ namespace IfOpdracht2
             enemy.hp -= 20;
             Console.WriteLine("you hit enemy for 20 damage");
 
-            if (false)//vervang false door een test of enemy.hp kleiner of gelijk aan 0 is
+            if (enemy.hp < 0)//vervang false door een test of enemy.hp kleiner of gelijk aan 0 is
             {
                 Console.WriteLine("enemy was defeated");
             }

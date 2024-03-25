@@ -14,20 +14,20 @@ namespace IfOpdracht3
 
             //maak van 2 false hieronder true
             bool chocola = false;
-            bool vanilla = false;
-            bool aardbei = false;
+            bool vanilla = true;
+            bool aardbei = true;
 
 
 
-            if (false)//test hier of je chocola AND vanilla hebt gekozen 
+            if (chocola && vanilla)//test hier of je chocola AND vanilla hebt gekozen 
             {
                 Console.WriteLine("hier is je chocola vanilla ijsje"); 
             }
-            else if (false)//test hier of je chocola AND aardbei hebt gekozen 
+            else if (chocola && aardbei)//test hier of je chocola AND aardbei hebt gekozen 
             {
                 Console.WriteLine("hier is je chocola aardbei ijsje"); 
             }
-            else if (false)//test hier of je vanilla AND aardbei hebt gekozen 
+            else if (vanilla && aardbei)//test hier of je vanilla AND aardbei hebt gekozen 
             {
                 Console.WriteLine("hier is je vanilla aardbei ijsje"); 
             }
